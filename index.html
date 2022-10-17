@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      display: block;
+      width: 80%;
+      margin: 12px auto;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .attribution a {
+      margin: 4px 8px;
+      padding: 6px;
+
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section id="phone">
+    <div class="brand1">
+      <img class="logo" src="images/logo.svg" alt="">
+      <img class="humbarger" id="humbargericon" src="images/icon-menu.svg" alt="">
+      <img class="closemanu" id="closemanu" src="images/icon-close-menu.svg" alt="">
+    </div>
+    <ul class="navbar_ul" id="navbar_Ul">
+      <div class="navbar_item">
+
+      <li class="item12">
+        <a id="feature_Expand" href="#">Features <img src="images/icon-arrow-down.svg" alt="" class="arrow"> </a>
+
+        <ul class="dropdown_Ul" id="feature_Dropdownphn">
+          <li class="dropdown_Li">
+            <div class="item1">
+              <img src="images/icon-todo.svg" alt="">
+              <a href="#" class="dropdown_A">Todo list</a>
+            </div>
+          </li>
+
+          <li class="dropdown_Li">
+            <div class="item2">
+              <img src="images/icon-calendar.svg" alt="">
+              <a href="#" class="dropdown_A"> Calendar</a>
+            </div>
+          </li>
+
+          <li class="dropdown_Li">
+            <div class="item3">
+              <img src="images/icon-reminders.svg" alt="">
+              <a href="#" class="dropdown_A">Reminders</a>
+            </div>
+          </li>
+
+          <li class="dropdown_Li">
+            <div class="item4">
+              <img src="images/icon-planning.svg" alt="">
+              <a href="#" class="dropdown_A"> Planing</a>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a id="Company_Expand" href="#">Company <img src="images/icon-arrow-down.svg" alt="" class="arrow"></a>
+        <ul class="dropdown2" id="Company_Dropdownphn">
+          <li class="first_Li"><a href="#">History</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Careers</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <div class="login">
+        <button class="login_Btn">Login</button>
+        <button class="register_Btn">Register</button>
+      </div>
+    </div>
+    </ul>
+    <div class="item">
+      <div class="mainpart">
+        <img class="phoneImg" src="images/image-hero-mobile.png" alt="">
+      </div>
+      <div class="mainitem">
+        <div class="heading">
+
+          <h1>Make remote work</h1>
+          <p>Get your team in sync, no matter your location. Streamline processes,create team rituals, and watch
+            productivity soar.</p>
+          <button class="learnmore_Btn">Learn more</button>
+        </div>
+        <div class="company">
+          <img src="images/client-databiz.svg" alt="" class="company_Logo">
+          <img src="images/client-audiophile.svg" alt="" class="company_Logo audio">
+          <img src="images/client-meet.svg" alt="" class="company_Logo">
+          <img src="images/client-maker.svg" alt="" class="company_Logo">
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>Coded by<a href="#">Mridul Ghosh</a>
+    </div>
+  </section>
+
+
+  <section id="desktop">
+
+    <nav>
+      <ul class="navbar">
+        <div class="brand">
+          <img class="logo" src="images/logo.svg" alt="">
+        </div>
+        <li class="item12">
+          <a id="Feature_ExpandPc" href="#">Features <img src="images/icon-arrow-down.svg" alt="" class="arrow"> </a>
+
+          <ul class="dropdown_Ul" id="feature_dropdownPc">
+            <li class="dropdown_Li">
+              <div class="item1">
+                <img src="images/icon-todo.svg" alt="">
+                <a href="#" class="dropdown_A">Todo list</a>
+              </div>
+            </li>
+
+            <li class="dropdown_Li">
+              <div class="item2">
+                <img src="images/icon-calendar.svg" alt="">
+                <a href="#" class="dropdown_A"> Calendar</a>
+              </div>
+            </li>
+
+            <li class="dropdown_Li">
+              <div class="item3">
+                <img src="images/icon-reminders.svg" alt="">
+                <a href="#" class="dropdown_A">Reminders</a>
+              </div>
+            </li>
+
+            <li class="dropdown_Li">
+              <div class="item4">
+                <img src="images/icon-planning.svg" alt="">
+                <a href="#" class="dropdown_A"> Planing</a>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a id="Company_Expandpc" href="#">Company <img src="images/icon-arrow-down.svg" alt="" class="arrow"></a>
+          <ul class="dropdown2" id="Company_Dropdownpc">
+            <li class="first_Li"><a href="#">History</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Careers</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <div class="login">
+          <button class="login_Btn">Login</button>
+          <button class="register_Btn">Register</button>
+        </div>
+      </ul>
+
+
+    </nav>
+    <section id="main">
+      <div class="box1">
+        <h1>Make remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes,create team rituals, and watch
+          productivity soar.</p>
+        <button class="learnmore_Btn">Learn more</button>
+        <div class="company">
+          <img src="images/client-databiz.svg" alt="" class="company_Logo">
+          <img src="images/client-audiophile.svg" alt="" class="company_Logo audio">
+          <img src="images/client-meet.svg" alt="" class="company_Logo">
+          <img src="images/client-maker.svg" alt="" class="company_Logo">
+        </div>
+      </div>
+      <div class="box2">
+        <img src="images/image-hero-desktop.png" alt="" class="main_Img">
+      </div>
+    </section>
+
+
+  <div class="attribution">
+    Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>Coded by<a href="#">Mridul Ghosh</a>
+  </div>
+
+
+  </section>
+  <script src="index.js"></script>
+</body>
+
+</html>
